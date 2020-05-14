@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(201, 235, 235);
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border-style: solid;
+    border-color: rgb(149, 207, 243);
+    background-color: rgb(156, 226, 226);
+    text-align: center;
+    height: auto;
+    /* min-height: 600px; */
+    width: 50%;
+    /* min-width: 400px; */
+    border-radius: 4%;
+}
+
+.head {
+    text-align: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#score {
+    font-size: 13px;
+    color: rgb(99, 99, 99);
+}
+
+.newGame {
+    position: relative;
+    background-color: darkorange;
+    height: 30px;
+    width: 100px;
+    font-weight: 900;
+    font-style: italic;
+    /* display: inline-block; */
+    border-collapse: initial;
+    border-radius: 10px;
+}
+
+.newGame:hover {
+    background-color: rgb(255, 170, 65);
+}
+
+.newGame:active {
+    background-color: rgb(226, 125, 2);
+}
+
+.main {
+    border: rgb(164, 255, 164) solid 1px;
+    width: 60%;
+    /* min-width: 320px; */
+    height: 0;
+    padding-bottom: 60%;
+    margin: 0 auto 3%;
+    border-radius: 10%;
+}
+
+.mainBox {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    margin: 5%;
+    border-radius: 7%;
+    background-color: rgb(174, 255, 214);
+}
+
+.gameBox {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 9%;
+}
+
+.box {
+    position: relative;
+    width: 20%;
+    height: 0;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    margin: 1%;
+    /* background-color: rgb(154, 241, 215); */
+    /* background-color: rgb(135, 102, 255); */
+    display: inline-block;
+    border-radius: 10%;
+    line-height: 50px;
+    vertical-align: middle;
+    font-family: 黑体,'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 30px;
+    /* color: orange; */
+}
+
+/* .empty{
+    height: 30px;
+    width: auto;
+} */
